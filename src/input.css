@@ -2,15 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   li a:nth-child(2) {
     display: none;
   }
-}
 
-@media (min-width: 500px) {
   li a:nth-child(1) {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 1.2rem;
   }
+
 }
