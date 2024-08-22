@@ -788,6 +788,19 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+@media (max-width: 500px) {
+  li a:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  li a:nth-child(1) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .hover\:text-cyan-300:hover {
   --tw-text-opacity: 1;
   color: rgb(103 232 249 / var(--tw-text-opacity));
