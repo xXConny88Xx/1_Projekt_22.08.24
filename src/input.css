@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
 @media (max-width: 650px) {
   li a:nth-child(2) {
     display: none;
