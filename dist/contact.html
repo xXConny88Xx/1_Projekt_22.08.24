@@ -21,30 +21,46 @@
           /></a>
         </div>
         <nav class="flex justify-center mt-12">
-          <ul class="text-white text-xl font-bold">
+          <ul class="text-white text-lg font-bold">
             <li class="py-3 hover:text-cyan-300">
-              <a href="index.html" target="_blank"><i class="fa fa-home mr-3 text-cyan-300"></i></a>
+              <a href="index.html" target="_blank"
+                ><i class="fa fa-home mr-3 text-cyan-300"></i
+              ></a>
               <a href="index.html" target="_blank" class="ml-[2.5px]">Home</a>
             </li>
 
             <li class="py-3 hover:text-cyan-300">
-              <a href="about.html" target="_blank"><i class="fa fa-user mr-3 text-cyan-300"></i></a>
+              <a href="about.html" target="_blank"
+                ><i class="fa fa-user mr-3 text-cyan-300"></i
+              ></a>
               <a href="about.html" target="_blank" class="ml-[7.5px]">About</a>
             </li>
 
             <li class="py-3 hover:text-cyan-300">
-              <a href="services.html" target="_blank"><i class="fa fa-list mr-3 text-cyan-300"></i></a>
-              <a href="services.html" target="_blank" class="ml-[5px]">Services</a>
+              <a href="services.html" target="_blank"
+                ><i class="fa fa-list mr-3 text-cyan-300"></i
+              ></a>
+              <a href="services.html" target="_blank" class="ml-[5px]"
+                >Services</a
+              >
             </li>
 
             <li class="py-3 hover:text-fuchsia-300">
-              <a href="portfolio.html" target="_blank"><i class="fa fa-briefcase mr-3 text-fuchsia-300"></i></a>
-              <a href="portfolio.html" target="_blank" class="ml-[5px]">Portfolio</a>
+              <a href="portfolio.html" target="_blank"
+                ><i class="fa fa-heart fa-fade mr-3 text-fuchsia-300"></i
+              ></a>
+              <a href="portfolio.html" target="_blank" class="ml-[5px]"
+                >Portfolio</a
+              >
             </li>
-            
+
             <li class="py-3 hover:text-cyan-300">
-              <a href="contact.html" target="_blank"><i class="fa fa-comments mr-3 text-cyan-300"></i></a>
-              <a href="contact.html" target="_blank" class="text-cyan-300">Contact</a>
+              <a href="contact.html" target="_blank"
+                ><i class="fa fa-comments mr-3 text-cyan-300"></i
+              ></a>
+              <a href="contact.html" target="_blank" class="text-cyan-300"
+                >Contact</a
+              >
             </li>
           </ul>
         </nav>
@@ -54,19 +70,89 @@
 
     <main>
       <section class="relative left-[25%] w-[75%] top-12 text-white">
-      
-        <h1 class="inline-block font-extrabold mb-5 text-7xl bg-gradient-to-r from-cyan-300 to-fuchsia-300 bg-clip-text text-transparent">
-         Contact
+        <h1
+          class="inline-block font-extrabold mb-5 text-7xl bg-gradient-to-r from-cyan-300 to-fuchsia-300 bg-clip-text text-transparent">
+          Contact
         </h1>
-      
-        <h2 class="font-extrabold mb-7 text-xl">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, perferendis!
+
+        <h2 class="font-extrabold mb-7 text-xl mr-5">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta,
+          perferendis!
         </h2>
-      
-
       </section>
-      </main>
 
+      <section class="relative left-[25%] w-[70%] h-[60vh] top-12 text-white">
+        <form action="#" method="POST" target="_blank">
+          <!-- <div class="mt-5">
+            <h3>
+              <i class="fa-regular fa-circle mr-4 text-xl"></i>Tailwindcss
+            </h3>
+            <div
+              class="relative w-[15rem] h-2 bg-zinc-900 rounded-full p-1 border-2 border-solid border-white">
+              <div
+                class="absolute top-0 left-0 h-full w-[35%] bg-gradient-to-r from-cyan-300 to-fuchsia-300 rounded-full"></div>
+            </div>
+          </div> -->
 
+          <!-- ! ================================ ERSTES INPUT FELD -->
+
+          <div class="rounded-lg mb-5 md:inline-block">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Firstname"
+              autofocus
+              class="w-[40%] md:w-full h-[2rem] px-5 py-4 rounded-xl outline-none text-zinc-900 placeholder:font-bold font-bold focus:border-2 focus:border-cyan-300 focus:shadow-md focus:shadow-cyan-300" />
+          </div>
+
+          <div class="rounded-lg md:inline-block">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Lastname"
+              autofocus
+              class="w-[40%] md:w-full h-[2rem] px-5 py-4 rounded-xl outline-none focus:border-2 focus:border-cyan-300 focus:shadow-md focus:shadow-cyan-300 text-zinc-900 placeholder:font-bold font-bold" />
+          </div>
+
+          <div class="rounded-lg my-5">
+            <input
+              type="email"
+              id="mail"
+              name="mail"
+              placeholder="example@gmail.com"
+              autofocus
+              class="w-[60%] md:w-[50%] h-[2rem] px-5 py-4 rounded-xl outline-none focus:border-2 focus:border-cyan-300 focus:shadow-md focus:shadow-cyan-300 text-zinc-900 placeholder:font-bold font-bold" />
+          </div>
+
+          <div class="rounded-lg my-5">
+            <input
+              type="text"
+              id="company"
+              name="company"
+              placeholder="Company"
+              autofocus
+              class="w-[80%] h-[2rem] px-5 py-4 rounded-xl outline-none focus:border-2 focus:border-cyan-300 focus:shadow-md focus:shadow-cyan-300 text-zinc-900 placeholder:font-bold font-bold" />
+          </div>
+
+          <div>
+            <textarea
+              name="txt-area"
+              id="txt"
+              cols="30"
+              rows="7"
+              placeholder="Your massage to me..."
+              autofocus
+              class="w-[80%] px-5 py-4 rounded-xl outline-none focus:border-2 focus:border-cyan-300 focus:shadow-md focus:shadow-cyan-300 text-zinc-900 placeholder:font-bold font-bold"></textarea>
+          </div>
+
+          <div
+            class="inline-block mt-7 bg-gradient-to-tr to-cyan-300 from-fuchsia-400 rounded-full py-3 px-10 font-extrabold hover:text-zinc-900 hover:border-2 hover:border-white">
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
